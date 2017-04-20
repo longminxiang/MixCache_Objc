@@ -37,6 +37,7 @@
 		07383D811E8774210055624C /* MixCacheItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixCacheItem.m; sourceTree = "<group>"; };
 		07383D821E8774210055624C /* MixFileCache.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MixFileCache.h; sourceTree = "<group>"; };
 		07383D831E8774210055624C /* MixFileCache.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MixFileCache.m; sourceTree = "<group>"; };
+		078695FF1EA8720F00EF7B9B /* MixCache_Objc.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; name = MixCache_Objc.podspec; path = ../MixCache_Objc.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +62,7 @@
 		07383D5C1E8773F10055624C = {
 			isa = PBXGroup;
 			children = (
+				078695FF1EA8720F00EF7B9B /* MixCache_Objc.podspec */,
 				07383D681E8773F10055624C /* MixCache */,
 				07383D731E8773F10055624C /* MixCacheTests */,
 				07383D671E8773F10055624C /* Products */,
@@ -402,6 +404,7 @@
 				07383D7C1E8773F10055624C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		07383D7D1E8773F10055624C /* Build configuration list for PBXNativeTarget "MixCacheTests" */ = {
 			isa = XCConfigurationList;
@@ -410,6 +413,7 @@
 				07383D7F1E8773F10055624C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
