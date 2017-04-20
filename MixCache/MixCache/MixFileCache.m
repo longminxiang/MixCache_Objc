@@ -33,8 +33,9 @@
     if (self = [super init]) {
         NSString *cacheDir = [NSSearchPathForDirectoriesInDomains(NSCachesDirectory, NSUserDomainMask, YES) lastObject];
         NSString *path = [NSString stringWithFormat:@"%@/%@", cacheDir, name];
-        NSLog(@"create MixCache in %@", path);
         self.directory = [NSURL fileURLWithPath:path];
+        [[NSFileManager defaultManager] createDirectoryAtURL:self.directory withIntermediateDirectories:YES attributes:nil error:nil];
+        NSLog(@"create MixCache in %@", path);
         
         self.internalCache = [NSCache new];
         self.internalCache.name = name;
